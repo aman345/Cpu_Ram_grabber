@@ -188,6 +188,7 @@ class Ui_MainWindow(object):
         self.threadclass.quit()
         self.threadclass1.quit()
         MainWindow.destroy()
+        sys.exit(0)
     
     def minimize(self):
         MainWindow.showMinimized()
