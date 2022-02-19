@@ -1,4 +1,5 @@
-from distutils.core import setup
+#from distutils.core import setup
+from setuptools import setup
 
 setup(
     # Application name:
@@ -26,6 +27,7 @@ setup(
     install_requires=[
         "PySide2",
         "PySide2extn",
-        "psutil"
+        "psutil",
+        "PyQt5"
     ],
 )
